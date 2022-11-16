@@ -1,0 +1,162 @@
+.portafolio{
+    background-color: #3f3f3f;
+    margin: 0 50px;
+    padding-bottom: 35px;
+    border-radius: 45px;
+    display: flex;
+    div{
+        text-align: center;
+        h3, p{
+            color: #FFF;
+            text-align: center;
+            margin: 20px 0px 15px;
+            padding: 20px 0px; 
+
+        }
+        h5{
+            text-align: center;
+            color: #FFF;
+            padding-bottom: 25px;
+        }
+    }
+    div{
+        padding-left: 50px;
+        text-align: center;
+        a{
+            margin: 10px 50px 30px;
+            img{
+                width: auto;
+                height: 200px;
+                padding-bottom: 20px;
+                border-radius: 20px;
+                background-color: white;
+                transition: transform .2s;
+                width: 200px;
+                height: auto;
+                margin: 0 auto;
+                &:hover{
+                    -ms-transform: scale(1.5); 
+                     -webkit-transform: scale(1.5); 
+                     transform: scale(1.5); 
+                }
+            }
+        }
+    }
+   
+ 
+}
+
+@media (max-width:570) {
+   
+    
+    #portafolio {
+       background-color: #3f3f3f;
+       margin: 25px 0;
+       padding-bottom: 35px;
+   }
+   
+   /* Portafolio */
+   #portafolio{
+       margin: 0;
+       border-radius: 0;
+   }
+   .portafolio {
+    padding: 0;
+   }
+   
+   #portafolio a img{
+       width: 100px;
+       height: auto;
+       padding-bottom: 20px;
+   }
+   .jobs-container-item{
+       padding-top: 10px;
+   }
+    .jobs-container-item a {
+       margin: 0;
+   }
+
+    .zoom {
+       width: auto;
+       height: auto;
+       margin: 0 auto;
+     }
+   
+   .zoom:hover {
+       -ms-transform: scale(1); 
+       -webkit-transform: scale(1); 
+       transform: scale(1); 
+     }
+}
+
+@media (min-width:701px) and (max-width: 980px) {
+   
+
+    #portafolio {
+       background-color: #3f3f3f;
+       margin: 25px 0;
+       padding-bottom: 35px;
+   }
+   
+   #portafolio a img{
+       width: 330px;
+       height: auto;
+       padding-bottom: 20px;
+   }
+   .portafolio {
+    padding: 0;
+   }
+  
+   .jobs-container-item{
+       padding-top: 10px;
+   }
+    .jobs-container-item a {
+       margin: 0;
+   }
+
+    .zoom {
+       width: auto;
+       height: auto;
+       margin: 0 auto;
+     }
+   
+   .zoom:hover {
+       -ms-transform: scale(1); 
+       -webkit-transform: scale(1); 
+       transform: scale(1); 
+     }
+    }
+
+    @media (min-width:981px) and (max-width: 1390px) {  
+    #portafolio {
+        background-color: #3f3f3f;
+        margin: 25px 0;
+        padding-bottom: 35px;
+    }
+
+    #portafolio a img{
+        width: 220px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+   
+    .jobs-container-item{
+        padding-top: 10px;
+    }
+     .jobs-container-item a {
+        margin: 0;
+    }
+ 
+     .zoom {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+      }
+    
+    .zoom:hover {
+        -ms-transform: scale(1); 
+        -webkit-transform: scale(1); 
+        transform: scale(1); 
+      }
+    }
+

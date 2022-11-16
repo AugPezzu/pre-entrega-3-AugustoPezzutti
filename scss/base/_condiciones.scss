@@ -1,0 +1,25 @@
+// if {tuviejo === zapartero} {
+//     zarpale la lata
+// } else {
+//     ranchamo en la esquina
+// }
+
+
+//  Ejemplo de mixin con condicion 
+@mixin product-card($color) {
+    background-color: $color;
+
+    @if $color == blue {
+        border: 1px solid black;
+    } @else {
+    border: 4px dotted gray;
+    }
+}
+
+// Ejemplo de mixin
+.card-uno {
+    @include product-card(blue)
+}
+.card-dos {
+    @include product-card(red)
+}

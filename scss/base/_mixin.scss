@@ -1,0 +1,22 @@
+/* Mixins */
+@mixin mensajes {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.cancel {
+    @include mensajes
+}
+
+/* Mixin nos permite difinir propiedades sin saber el valor para poder definirlo en un futuro cercano*/
+/* Crea una clase o matriz de la estructura que voy a usar en un futuro */
+@mixin botones ($padding, $border) {
+    padding: $padding;
+    border: $border;
+}
+
+/* Ejemplo Con mixin */
+.botones {
+    @include botones(20px, 1px solid black)
+}

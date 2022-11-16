@@ -1,0 +1,378 @@
+
+
+/* Redes */
+#redes {
+    text-align: center;
+}
+
+#redes h3 {
+color: black;
+margin-top: 20px;
+}
+
+#redes img{
+width: 70px;
+margin: 50px 80px;
+}
+/* Fin Redes */
+
+/* FIN Main */
+
+/* Footer */
+footer {
+    margin: 10px 0px 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #3f3f3f;
+}
+
+footer p {
+    color: #FFF;
+}
+
+footer img{
+    width: 30px;
+}
+
+.footer-item-1 {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.footer-item-2{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+/* FIN Footer */
+
+/* Pagina Contacto */
+  #formulario {
+    background-color: #c40048;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .form {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 1100px;
+    padding: 20px;
+    width: 1100px;
+  }
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    color: #fff;
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    width: 76px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+
+  
+  .placeholder {
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+
+  
+  .submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+  
+
+/* Fin Pagina Contacto */
+
+
+
+/* Media Mobile */
+@media only screen and (max-width:700px) {
+    /* Presentacion - Backgrond con un imagen */
+    #home {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-item-1 {
+        text-align: center;
+    }
+     /* Fin Presentacion - Backgrond con un imagen */
+    
+     /* Sobre mi & Tecnologias */
+     #tecnologias-container {
+        padding-top: 20px;
+        margin: 0;
+        border-radius: 0px;
+    }
+     .tecnologias-item-1 p, h3{
+        padding: 0px 10px;
+    }
+    .teconolgoia-item-cv{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .container-lenguajes-subitem {
+        padding-top: 50px;
+    }
+     /* Fin Sobre mi & Tecnologias */
+
+     #portafolio {
+        background-color: #3f3f3f;
+        margin: 25px 0;
+        padding-bottom: 35px;
+    }
+    
+    /* Portafolio */
+    #portafolio{
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    #portafolio a img{
+        width: 330px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .jobs-container-item{
+        padding-top: 10px;
+    }
+     .jobs-container-item a {
+        margin: 0;
+    }
+
+     .zoom {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+      }
+    
+    .zoom:hover {
+        -ms-transform: scale(1); 
+        -webkit-transform: scale(1); 
+        transform: scale(1); 
+      }
+     /* Portafolio */
+
+     /* redes */
+     #redes img{
+        width: 70px;
+        margin: 50px 20px;
+        }
+    /* Fin redes */
+
+}
+
+/* Fin Media Mobile */
+
+/* Media Tablet */
+@media only screen and (min-width:701px) and (max-width: 980px) {
+     /* Presentacion - Backgrond con un imagen */
+     #home {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .home-item-1 {
+        text-align: center;
+    }
+     /* Fin Presentacion - Backgrond con un imagen */
+    
+     /* Sobre mi & Tecnologias */
+     .tecnologias-item-1 p, h3{
+        padding: 0px 10px;
+    }
+    .teconolgoia-item-cv{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .container-lenguajes-subitem {
+        padding-top: 50px;
+    }
+     /* Fin Sobre mi & Tecnologias */
+
+     #portafolio {
+        background-color: #3f3f3f;
+        margin: 25px 0;
+        padding-bottom: 35px;
+    }
+    
+    /* Portafolio */
+    
+    #portafolio a img{
+        width: 330px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+   
+    .jobs-container-item{
+        padding-top: 10px;
+    }
+     .jobs-container-item a {
+        margin: 0;
+    }
+
+     .zoom {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+      }
+    
+    .zoom:hover {
+        -ms-transform: scale(1); 
+        -webkit-transform: scale(1); 
+        transform: scale(1); 
+      }
+     /* Portafolio */
+     /* redes */
+     #redes img{
+        width: 70px;
+        margin: 50px 30px;
+        }
+    
+}
+
+/* Fin Media Table */
+
+/*  medium-large  */
+@media only screen and (min-width:981px) and (max-width: 1390px) {
+    /* Presentacion - Backgrond con un imagen */
+    #home {
+       padding-top: 60px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+   .home-item-1 {
+       text-align: center;
+   }
+    /* Fin Presentacion - Backgrond con un imagen */
+   
+    /* Sobre mi & Tecnologias */
+    .tecnologias-item-1 p, h3{
+       padding: 0px 10px;
+   }
+   .teconolgoia-item-cv{
+       padding: 20px 0;
+       margin: 0;
+   }
+   .container-lenguajes-subitem {
+       padding-top: 50px;
+   }
+    /* Fin Sobre mi & Tecnologias */
+
+    #portafolio {
+       background-color: #3f3f3f;
+       margin: 25px 0;
+       padding-bottom: 35px;
+   }
+   
+   /* Portafolio */
+   
+   #portafolio a img{
+       width: 220px;
+       height: auto;
+       padding-bottom: 20px;
+   }
+  
+   .jobs-container-item{
+       padding-top: 10px;
+   }
+    .jobs-container-item a {
+       margin: 0;
+   }
+
+    .zoom {
+       width: auto;
+       height: auto;
+       margin: 0 auto;
+     }
+   
+   .zoom:hover {
+       -ms-transform: scale(1); 
+       -webkit-transform: scale(1); 
+       transform: scale(1); 
+     }
+    /* Portafolio */
+    /* redes */
+    #redes img{
+       width: 70px;
+       margin: 50px 30px;
+       }
+   
+}
+/* FIN medium-large  */

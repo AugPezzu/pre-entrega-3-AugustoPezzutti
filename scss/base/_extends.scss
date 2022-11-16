@@ -1,0 +1,12 @@
+/* aplicacion de un mapa*/
+
+%botones {
+    padding: 10px;
+    background-color: blue($color: #000000);
+    
+}
+
+.buttons {
+    /* Todo el Css */
+    @extend %botones;
+}

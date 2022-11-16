@@ -1,0 +1,113 @@
+.tecnologias-edit{
+        background-color: #3f3f3f;
+        margin: 0 50px;
+        border-radius: 45px;
+        div{
+            
+            h3{
+                color: #fff;
+                text-align: center;
+                padding: 0px 300px;
+            }
+            p{
+                color: #fff;
+                text-align: center;
+                padding: 0px 300px;
+            }
+            nav{
+                padding-top: 20px;
+                ul{
+                    text-align: center;
+                    margin-top: 25px;  
+                    li{
+                        a{
+                            text-decoration: none;
+                            padding: 15px;
+                            background-color: blue;
+                            color: #FFF;
+                            border-radius: 45px;
+                            &:hover{
+                                background-color: green;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+        div{
+            padding: 10px 0 50px 0;
+            div{
+                div{
+                    text-align: center;
+                    img{
+                        width: 250px;
+                        height: 150px;
+                        border-radius: 7px;
+                    }
+                }
+            }
+        }
+        @media (max-width:700px) {
+            #tecnologias-container {
+                padding-top: 20px;
+                margin: 0;
+                border-radius: 0px;
+            }
+             .tecnologias-item-1{
+                p, h3{
+                    padding: 0px 10px;
+                      }
+             }
+            .teconolgoia-item-cv{
+                padding: 20px 0;
+                margin: 0;
+            }
+            .container-lenguajes{
+                p, h3{
+                    padding: 0px 10px;
+                      }
+            }
+            .container-lenguajes-subitem {
+                padding-top: 50px;
+            }
+        };
+        @media (min-width:701px) and (max-width: 980px) {
+   
+            /* Sobre mi & Tecnologias */
+            .tecnologias-item-1 
+            {
+                p, h3{
+               padding: 0px 10px;
+                 }
+           }
+           .teconolgoia-item-cv{
+               padding: 20px 0;
+               margin: 0;
+           }
+           .container-lenguajes-subitem {
+               padding-top: 50px;
+           }
+        };
+        @media (min-width:981px) and (max-width: 1390px) {
+
+            /* Sobre mi & Tecnologias */
+            .tecnologias-item-1 p, h3{
+               padding: 0px 10px;
+           }
+           .teconolgoia-item-cv{
+               padding: 20px 0;
+               margin: 0;
+           }
+           .container-lenguajes-subitem {
+               padding-top: 50px;
+           }
+        }
+    }
+
+
+
+
+

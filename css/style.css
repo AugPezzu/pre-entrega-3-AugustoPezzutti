@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap%27");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header section {
+  background-image: url(/img/imagenhtml.webp);
+  text-align: center;
+  color: #FFF;
+}
+header section nav div a img {
+  width: 80px;
+  margin: 0 50px;
+}
+header section nav div button {
+  background-color: #c40048;
+  color: #FFF;
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+header section nav div div {
+  color: white;
+}
+header section nav div div ul {
+  color: white;
+}
+header section nav div div ul li {
+  text-align: center;
+  color: white;
+}
+header section nav div div ul li a {
+  color: white;
+  font-size: 25px;
+  margin: 0 15px;
+  padding: 5px;
+  background-color: #c40048;
+  border-radius: 15px;
+  display: block;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+header section nav div div ul li a:hover {
+  color: #c40048;
+  background-color: #fff;
+}
+
+.home-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.home-container div {
+  align-items: center;
+  margin: 50px 20px;
+}
+.home-container div img {
+  width: 135px;
+  height: auto;
+  border-radius: 90px;
+}
+.home-container div {
+  color: black;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin: 0px;
+  padding: 23px;
+  text-align: center;
+}
+.home-container div p {
+  color: black;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin: 0px;
+  padding: 23px;
+  text-align: center;
+}
+.home-container div h3 {
+  color: #c40048;
+  font-size: 35px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  #home {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-item-1 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 980px) {
+  #home {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .home-item-1 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 981px) and (max-width: 1390px) {
+  #home {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .home-item-1 {
+    text-align: center;
+  }
+}
+.tecnologias-edit {
+  background-color: #3f3f3f;
+  margin: 0 50px;
+  border-radius: 45px;
+}
+.tecnologias-edit div h3 {
+  color: #fff;
+  text-align: center;
+  padding: 0px 300px;
+}
+.tecnologias-edit div p {
+  color: #fff;
+  text-align: center;
+  padding: 0px 300px;
+}
+.tecnologias-edit div nav {
+  padding-top: 20px;
+}
+.tecnologias-edit div nav ul {
+  text-align: center;
+  margin-top: 25px;
+}
+.tecnologias-edit div nav ul li a {
+  text-decoration: none;
+  padding: 15px;
+  background-color: blue;
+  color: #FFF;
+  border-radius: 45px;
+}
+.tecnologias-edit div nav ul li a:hover {
+  background-color: green;
+  color: #fff;
+}
+.tecnologias-edit div {
+  padding: 10px 0 50px 0;
+}
+.tecnologias-edit div div div {
+  text-align: center;
+}
+.tecnologias-edit div div div img {
+  width: 250px;
+  height: 150px;
+  border-radius: 7px;
+}
+@media (max-width: 700px) {
+  .tecnologias-edit #tecnologias-container {
+    padding-top: 20px;
+    margin: 0;
+    border-radius: 0px;
+  }
+  .tecnologias-edit .tecnologias-item-1 p, .tecnologias-edit .tecnologias-item-1 h3 {
+    padding: 0px 10px;
+  }
+  .tecnologias-edit .teconolgoia-item-cv {
+    padding: 20px 0;
+    margin: 0;
+  }
+  .tecnologias-edit .container-lenguajes p, .tecnologias-edit .container-lenguajes h3 {
+    padding: 0px 10px;
+  }
+  .tecnologias-edit .container-lenguajes-subitem {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 701px) and (max-width: 980px) {
+  .tecnologias-edit {
+    /* Sobre mi & Tecnologias */
+  }
+  .tecnologias-edit .tecnologias-item-1 p, .tecnologias-edit .tecnologias-item-1 h3 {
+    padding: 0px 10px;
+  }
+  .tecnologias-edit .teconolgoia-item-cv {
+    padding: 20px 0;
+    margin: 0;
+  }
+  .tecnologias-edit .container-lenguajes-subitem {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 981px) and (max-width: 1390px) {
+  .tecnologias-edit {
+    /* Sobre mi & Tecnologias */
+  }
+  .tecnologias-edit .tecnologias-item-1 p, .tecnologias-edit h3 {
+    padding: 0px 10px;
+  }
+  .tecnologias-edit .teconolgoia-item-cv {
+    padding: 20px 0;
+    margin: 0;
+  }
+  .tecnologias-edit .container-lenguajes-subitem {
+    padding-top: 50px;
+  }
+}
+
+.servicios-sass {
+  margin: 0 50px;
+}
+.servicios-sass div {
+  padding-top: 30px;
+}
+.servicios-sass div h3 {
+  color: black;
+  text-align: center;
+}
+.servicios-sass div h5 {
+  text-align: center;
+}
+.servicios-sass div div {
+  text-align: center;
+}
+.servicios-sass div div img {
+  text-align: center;
+  width: 70px;
+}
+.servicios-sass div div h3 {
+  color: black;
+  text-align: center;
+}
+.servicios-sass div div p {
+  text-align: justify;
+  padding: 0 50px 30px 50px;
+}
+
+@media (max-width: 700px) {
+  .servicios-sass div div {
+    padding: 0px 10px;
+  }
+  .servicios-sass div div p {
+    padding: 0px 10px;
+  }
+}
+.portafolio {
+  background-color: #3f3f3f;
+  margin: 0 50px;
+  padding-bottom: 35px;
+  border-radius: 45px;
+  display: flex;
+}
+.portafolio div {
+  text-align: center;
+}
+.portafolio div h3, .portafolio div p {
+  color: #FFF;
+  text-align: center;
+  margin: 20px 0px 15px;
+  padding: 20px 0px;
+}
+.portafolio div h5 {
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 25px;
+}
+.portafolio div {
+  padding-left: 50px;
+  text-align: center;
+}
+.portafolio div a {
+  margin: 10px 50px 30px;
+}
+.portafolio div a img {
+  width: auto;
+  height: 200px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-color: white;
+  transition: transform 0.2s;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+.portafolio div a img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+@media (max-width: 570) {
+  #portafolio {
+    background-color: #3f3f3f;
+    margin: 25px 0;
+    padding-bottom: 35px;
+  }
+  /* Portafolio */
+  #portafolio {
+    margin: 0;
+    border-radius: 0;
+  }
+  .portafolio {
+    padding: 0;
+  }
+  #portafolio a img {
+    width: 100px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .jobs-container-item {
+    padding-top: 10px;
+  }
+  .jobs-container-item a {
+    margin: 0;
+  }
+  .zoom {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@media (min-width: 701px) and (max-width: 980px) {
+  #portafolio {
+    background-color: #3f3f3f;
+    margin: 25px 0;
+    padding-bottom: 35px;
+  }
+  #portafolio a img {
+    width: 330px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .portafolio {
+    padding: 0;
+  }
+  .jobs-container-item {
+    padding-top: 10px;
+  }
+  .jobs-container-item a {
+    margin: 0;
+  }
+  .zoom {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@media (min-width: 981px) and (max-width: 1390px) {
+  #portafolio {
+    background-color: #3f3f3f;
+    margin: 25px 0;
+    padding-bottom: 35px;
+  }
+  #portafolio a img {
+    width: 220px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .jobs-container-item {
+    padding-top: 10px;
+  }
+  .jobs-container-item a {
+    margin: 0;
+  }
+  .zoom {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.redes-sass {
+  text-align: center;
+}
+.redes-sass h3 {
+  color: black;
+  margin-top: 20px;
+}
+.redes-sass a img {
+  width: 70px;
+  margin: 50px 80px;
+}
+
+@media only screen and (max-width: 700px) {
+  #redes img {
+    width: 70px;
+    margin: 50px 20px;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 980px) {
+  #redes img {
+    width: 70px;
+    margin: 50px 30px;
+  }
+}
+@media only screen and (min-width: 981px) and (max-width: 1390px) {
+  #redes img {
+    width: 70px;
+    margin: 50px 30px;
+  }
+}
+.formulario-sass {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.formulario-sass .form {
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 1100px;
+  padding: 20px;
+  width: 1100px;
+  background-color: #303245;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  outline: 0;
+  padding: 4px 20px 0;
+}
+.formulario-sass .form .title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.formulario-sass .form input {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+.formulario-sass .form .ic1 {
+  margin-top: 40px;
+}
+.formulario-sass .form .ic2 {
+  margin-top: 30px;
+}
+.formulario-sass .form .placeholder {
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+.formulario-sass .form .submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+.formulario-sass .form .submit:active {
+  background-color: #06b;
+}
+
+footer {
+  margin: 10px 0px 0px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #3f3f3f;
+}
+footer section .footer-item-1 {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+footer section .footer-item-1 p {
+  color: #FFF;
+}
+footer section .footer-item-2 {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+footer section .footer-item-2 img {
+  width: 30px;
+}
+
+/* aplicacion de un mapa*/
+.dark {
+  /* Funcion - traigo el mapa con map-get*/
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

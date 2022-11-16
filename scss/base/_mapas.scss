@@ -1,0 +1,14 @@
+$dark: (
+     /* key - valor */
+     bg-color-dark: black,
+     font-dark: 20px,
+     bg-image-dark: attachment,
+);
+
+
+/* aplicacion de un mapa*/
+
+.dark {
+    /* Funcion - traigo el mapa con map-get*/
+    background-color: map-get($dark, bg-color-dark);
+}
